@@ -46,7 +46,7 @@ namespace Assignment2.Controllers
             else if (Burger == 3)
             {
                 BurgerCalories = 420;
-    }
+            }
             else if (Burger == 4) 
             {
                 BurgerCalories = 0;
