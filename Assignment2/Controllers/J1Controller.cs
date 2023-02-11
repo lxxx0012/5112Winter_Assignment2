@@ -19,8 +19,8 @@ namespace Assignment2.Controllers
         /// <param name="Dr">Compute {drink} - integer representing the index drink choice</param>
         /// <param name="De">Compute {dessert) - Integer representing the index dessert choice</param>
         /// <returns>
-        /// HTTP request of 4/4/4/4 -> 0 calories
-        /// HTTP request of 1/2/3/4 -> 691 calories
+        /// HTTP request of 4/4/4/4 -> Your total calories count is 0
+        /// HTTP request of 1/2/3/4 -> Your total calories count is 691
         /// </returns>
 
         [HttpGet]
