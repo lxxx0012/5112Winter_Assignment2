@@ -29,9 +29,9 @@ namespace Assignment2.Controllers
             int ways = 0;
             if (m > 10 || n > 10)
             {
-                for (int i = 1; i < 11; i++)
+                for (int i = 1; i < 10; i++)
                 {
-                    for (int j = 1; j < 11; j++)
+                    for (int j = 1; j < 10; j++)
                     {
                         if (i + j == 10)
                         {
@@ -59,7 +59,7 @@ namespace Assignment2.Controllers
             {
                 for (int i = 1; i <= m; i++)
                 {
-                    for (int j = 1; j < 11; j++)
+                    for (int j = 1; j < 10; j++)
                     {
                         if (i + j == 10)
                         {
@@ -71,7 +71,7 @@ namespace Assignment2.Controllers
 
             else if (m > 10 || n <= 10)
             {
-                for (int i = 1; i > 11; i++)
+                for (int i = 1; i < 10; i++)
                 {
                     for (int j = 1; j <= n; j++)
                     {
