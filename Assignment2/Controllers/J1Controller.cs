@@ -10,7 +10,6 @@ namespace Assignment2.Controllers
 {
     public class J1Controller : ApiController
     {
-        // Write a program that will compute the totla calories fo the meal
         /// <summary>
         /// Compute the total calories for the meal
         /// </summary>
