@@ -71,7 +71,7 @@ namespace Assignment2.Controllers
 
             else if (m > 10 || n <= 10)
             {
-                for (int i = 1; i < 10; i++)
+                for (int i = 1; i > 10; i++)
                 {
                     for (int j = 1; j <= n; j++)
                     {
