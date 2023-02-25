@@ -9,6 +9,7 @@ namespace Assignment2.Controllers
 {
     public class J2Controller : ApiController
     {
+
         /// <summary>
         /// Compute number of ways to roll the value of 10
         /// </summary>
